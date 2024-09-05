@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trate Agora</title>
+    <link rel="icon" href="img/trateagora/logomao.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4/dist/fancybox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Link para o CSS do Bootstrap 4 -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <!-- Link para o CSS do Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <style>
+        html,
+        body {
+          position: relative;
+          height: 100%;
+        }
+    
+        body {
+          position: relative;
+          height: 100%;
+        }
+    
+        body {
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color: #000;
+          margin: 0;
+          padding: 0;
+
+          
+        }
+    
+        .swiper {
+          width: 100%;
+          height: 100%;
+          position: relative;
+          z-index: 1;
+        }
+    
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+    
+        .swiper-slide img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: auto;
+          padding: auto;
+        }
+        .nav-list{
+            z-index: 30;
+        }
+        .hamburger{
+            z-index: 40;
+        }
+      </style>
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light w-100 fixed-top">
+      <div class="container">
+        <!-- Logo da marca -->
+        <a class="navbar-brand" href="index.html">
+          <img src="img/trateagora/logotrateagora.png" alt="Bootstrap" />
+        </a>
+        <!-- Botão de alternância para navegação colapsada -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Links de navegação -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="clinicas.html">Clinicas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Contatos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Clinica 1 -->
+    <div class="conteinerpaiclinicas">
+        <div class="contaaaaa">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/clinica7/1.jpg" data-fancybox="gallery" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/clinica7/2.jpg" data-fancybox="gallery" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/clinica7/3.jpg" data-fancybox="gallery" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/clinica7/4.jpg" data-fancybox="gallery" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/clinica7/5.jpg" data-fancybox="gallery" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/clinica7/6.jpg" data-fancybox="gallery" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/clinica7/7.jpg" data-fancybox="gallery" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/clinica7/8.jpg" data-fancybox="gallery" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            
+                
+                <!-- Swiper JS -->
+                <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+                <!-- Fancybox JS -->
+                <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4/dist/fancybox.umd.js"></script>
+                
+                <!-- Initialize Swiper -->
+                <script>
+                    var swiper = new Swiper(".mySwiper", {
+                    spaceBetween: 30,
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    });
+                </script>
+        </div>
+    </div>
+
+    <h1 class="tituloclinicass">Araçoiaba da Serra - SP</h1>
+    <p class="textoclinicass">
+      O Grupo TrateAgora se destaca como líder na oferta de clínicas de recuperaçãoe comunidades terapêuticas, <br>
+      com unidades especialmente dedicadas tanto a homens quanto a mulheres. Conscientes do aumento do uso de substâncias e do abuso de álcool em diversas regiões do Brasil, <br>
+      entendemos a gravidade dessas questões e estamos comprometidos em oferecer o suporte necessário para a superação dessas condições.<br>
+      A dependência química e o alcoolismo são reconhecidos pela Organização Mundial da Saúde (OMS) como doenças que afetam profundamente a vida do indivíduo e de seus familiares. <br>
+      Reconhecemos que o impacto dessas condições pode ser devastador, e é por isso que nosso compromisso é fornecer um atendimento especializado e eficaz.<br><br>
+      
+      <strong>Nossa equipe é composta por profissionais altamente qualificados, incluindo:</strong><br><br>
+      
+      <strong>- Psicólogos</strong><br>
+      <strong>- Psiquiatras</strong><br>
+      <strong>- Terapeutas</strong><br>
+      <strong>- Enfermeiros</strong><br>
+      <strong>- Conselheiros</strong><br>
+      <strong>- Monitores</strong><br>
+      <strong>- Nutricionista</strong><br>
+      <strong>- Educador Fisico</strong><br>
+      <strong>- Segurança 24 horas</strong><br>
+      <strong>- Alimentação completa (todas as refeições)</strong> <br><br>
+      
+      Oferecemos programas de internação tanto voluntária quanto involuntária, com opções de tratamento flexíveis, <br>
+      variando de 1 a 12 meses. Nossas unidades estão preparadas para atender diferentes necessidades e orçamentos, desde opções de baixo custo até serviços de alto padrão, <br>
+      garantindo que cada paciente receba o atendimento adequado às suas necessidades. Entre em contato conosco para obter informações detalhadas <br>
+      sobre nossas unidades e descobrir como podemos oferecer o suporte necessário para uma recuperação efetiva e duradoura.<br>
+      Estamos aqui para ajudar na transformação de vidas e na recuperação de sua saúde. Confie no Grupo TrateAgora para proporcionar o caminho para uma vida nova e saudável.
+  </p>
+
+
+  <script>
+    // Variável global para o link
+    var linkGlobal =
+      "https://wa.me/5511975990413?text=Gostaria%20de%20saber%20mais%20sobre%20cl%C3%ADnica%20de%20reabilita%C3%A7%C3%A3o";
+
+    // Função para definir o link globalmente
+    function definirLinkGlobal() {
+      var botoes = document.querySelectorAll("#botaoGlobal");
+      botoes.forEach(function (botao) {
+        botao.onclick = function () {
+          window.location.href = linkGlobal;
+        };
+      });
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+
+      // Chama a função para definir o link global
+      definirLinkGlobal();
+    });
+  </script>
+  <!-- Bootstrap JS -->
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+  integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+  crossorigin="anonymous"
+  ></script>
+
+
+
+  </body>
+
+  <a class="btn-whatsapp" id="botaoGlobal" target="_blank">
+    <i class="fa fa-whatsapp"></i>
+  </a>
+
+</html7
